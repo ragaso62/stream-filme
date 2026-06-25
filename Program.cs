@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-﻿Filme filme = new Filme();
-Console.Write("Titulo: ");
-filme.titulo = Console.ReadLine();
-
-Console.Write("Gênero: ");
-filme.genero = Console.ReadLine();
-
-Console.WriteLine("Ano de lançamento: ");
-filme.anoLancamento = Convert.ToInt32(Console.Read());
-
-Console.WriteLine("classificação indicativa:");
-filme.classificarIndicativa = Convert.ToInt32(Console.Read());
-=======
 List<Filme> listaFilmes = new List<Filme>();
 int opcao;
 
@@ -22,7 +8,6 @@ do
     Console.WriteLine("2 - exibir todos os filmes");
     Console.WriteLine("0 - Sair");
     opcao = Convert.ToInt32(Console.ReadLine());
->>>>>>> d80238023bb65bb060cb29da8f98e8d83f719cb6
 
     switch (opcao)
     {
